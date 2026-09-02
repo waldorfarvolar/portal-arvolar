@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Latido del Año en Arvolar</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500&display=swap');
+:root{--verde:#2D5016;--vm:#4A7C2F;--vs:#EEF5E8;--t:#7A5C1E;--tc:#F5EDD8;--n:#B45A14;--nc:#FFF0E0;--az:#1E4682;--azc:#E8EEF8;--gris:#373737;--crema:#FDFAF5;--l:#E0DDD8}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'EB Garamond',Georgia,serif;font-size:clamp(19px,2.4vw,22px);line-height:1.75;color:var(--gris);background:var(--crema)}
+nav{position:sticky;top:0;z-index:100;background:var(--verde);padding:.5rem 1.5rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap;box-shadow:0 2px 12px rgba(0,0,0,.25)}
+.nt{font-family:'EB Garamond',serif;font-size:1rem;font-style:italic;color:rgba(255,255,255,.85);margin-right:auto}
+.nl{display:flex;gap:.25rem;flex-wrap:wrap}
+a.na{font-family:'Inter',sans-serif;font-size:.72rem;font-weight:500;color:rgba(255,255,255,.7);text-decoration:none;padding:.3rem .7rem;border-radius:4px;transition:background .15s,color .15s}
+a.na:hover{background:rgba(255,255,255,.15);color:#fff}
+.c{max-width:780px;margin:0 auto;padding:2.5rem 1.5rem 5rem}
+.portada{text-align:center;padding:4rem 1rem 3rem;border-bottom:1px solid var(--l);margin-bottom:3rem}
+.portada h1{font-size:clamp(2.4rem,6vw,3.8rem);color:var(--verde);line-height:1.15;margin-bottom:.4rem}
+.sub{font-size:clamp(1rem,2.5vw,1.3rem);color:var(--vm);font-style:italic;margin:1rem 0 .5rem}
+.dec{width:min(280px,60%);height:1px;background:var(--vm);margin:1rem auto}
+.guia{font-family:'Inter',sans-serif;font-size:.85rem;color:var(--t);letter-spacing:.05em}
+.cita-p{margin:2.5rem auto 0;max-width:520px;background:var(--vs);border-left:3px solid var(--vm);padding:1rem 1.4rem;font-style:italic;font-size:1.05rem;color:var(--verde);border-radius:0 6px 6px 0}
+section{margin-bottom:3rem}
+h2{font-size:clamp(1.35rem,3vw,1.7rem);color:var(--verde);margin-bottom:.4rem;padding-bottom:.35rem;border-bottom:1.5px solid var(--vm)}
+h3{font-size:clamp(1.1rem,2.5vw,1.3rem);color:var(--t);margin:2rem 0 .6rem}
+p{margin-bottom:1rem}
+.be{text-align:center;padding:.75rem 1rem;border-radius:6px;margin:2.5rem 0 1.5rem;font-family:'Inter',sans-serif;font-size:1.1rem;font-weight:600;letter-spacing:.25em;color:#fff}
+.bo{background:var(--t)}.bi{background:var(--az)}.bp{background:var(--vm)}.bv{background:var(--n)}
+.caja{border-left:3px solid;padding:.9rem 1.2rem;border-radius:0 6px 6px 0;margin:1.4rem 0;font-style:italic;text-align:center}
+.cv{background:var(--vs);border-color:var(--vm);color:var(--verde)}
+.ct{background:var(--tc);border-color:var(--t);color:var(--t)}
+.ca{background:var(--azc);border-color:var(--az);color:var(--az)}
+.cn{background:var(--nc);border-color:var(--n);color:var(--n)}
+.firma{text-align:right;margin-top:1.5rem;font-style:italic;color:var(--gris)}
+.firma strong{font-style:normal}
+.cierre{text-align:center;padding:2rem 1rem;background:var(--vs);border-left:3px solid var(--vm);border-radius:0 8px 8px 0;margin-top:2rem}
+hr{border:none;border-top:1px solid var(--l);margin:2.5rem 0}
+@media(max-width:480px){.c{padding:1.5rem 1rem 4rem}.portada{padding:2.5rem .5rem 2rem}nav{padding:.4rem 1rem}.nt{display:none}}
+@media(prefers-color-scheme:dark){:root{--crema:#1C1C1A;--gris:#D8D4CC;--l:#333330}.cv{background:rgba(74,124,47,.15)}.ct{background:rgba(122,92,30,.15)}.ca{background:rgba(30,70,130,.15)}.cn{background:rgba(180,90,20,.15)}.cita-p{background:rgba(74,124,47,.15)}.cierre{background:rgba(74,124,47,.12)}}
+</style>
+</head>
+<body>
+<nav>
+  <span class="nt">El Latido del Año en Arvolar</span>
+  <div class="nl">
+    <a class="na" href="#bienvenida">Bienvenida</a>
+    <a class="na" href="#ritmo">Ritmo</a>
+    <a class="na" href="#otono">Otoño</a>
+    <a class="na" href="#invierno">Invierno</a>
+    <a class="na" href="#primavera">Primavera</a>
+    <a class="na" href="#verano">Verano</a>
+    <a class="na" href="#cierre">Cierre</a>
+  </div>
+</nav>
+<div class="c">
+<div class="portada">
+  <h1>El Latido del Año<br>en Arvolar</h1>
+  <p class="sub">Ritmo, estaciones y festividades</p>
+  <div class="dec"></div>
+  <p class="guia">Guía para Familias Arvolar</p>
+  <div class="cita-p">«El ritmo del año es el maestro silencioso de la infancia.»</div>
+</div>
+
+<section id="bienvenida">
+<h2>Carta de Bienvenida</h2>
+<p>Queridas familias,</p>
+<p>Me dirijo a ustedes en esta ocasión con mucha emoción y, casi que con el corazón en la mano, para darles la bienvenida a estas páginas que hemos preparado con muchísimo cariño para ustedes.</p>
+<p>De manera personal, en mi camino dentro de Arvolar, he tenido el privilegio de irme adentrando poco a poco en el sentido, los colores y las imágenes de cada estación y sus festividades. Cada año, cada celebración y cada vivencia han ido dejando en mí un profundo sentir, cada vez más integrado y más presente también en mi vida cotidiana. Mi proceso dentro de esta comunidad me ha permitido desarrollar una mirada más atenta y una conexión más profunda con la naturaleza que nos sostiene, nos acompaña y nos da vida.</p>
+<p>Asimismo, y sobre todo, me emociona inmensamente observar, comprender y vivir lo que nuestros hijos e hijas tienen la oportunidad de experimentar a través del ciclo anual en Arvolar. Estas vivencias quedarán integradas dentro de su ser, permitiéndoles transitar el año de una manera más natural y profundamente conectada con el mundo.</p>
+<p>Con estas páginas, queremos abrirles suavemente la puerta al entendimiento que existe detrás de cada estación, cada festividad y cada vivencia. Nosotros abrimos esa puerta; ustedes irán dando los pasos a su propio ritmo, según el momento de vida en el que se encuentren y hasta donde deseen profundizar.</p>
+<p>Todo lo que encontrarán a continuación está pensado como una pequeña base para nosotros, los adultos: papás, mamás, abuelos y comunidad que acompaña a la infancia. A nuestra edad, nos corresponde acercarnos al mundo desde el pensar y la comprensión. Sin embargo, quisiera recordarles con mucho cariño —pero también con profunda convicción— que los niños viven, sienten e integran el mundo sin necesidad de grandes explicaciones.</p>
+<p>Deseo, con todo mi corazón, que estas páginas nos ayuden, como comunidad, a caminar el año en mayor sintonía, comprensión y unión; sintiéndonos acompañados mientras aprendemos también a acompañar, con más conciencia y sensibilidad, el desarrollo y el sentir de nuestros hijos e hijas.</p>
+<p>Gracias por caminar paso a paso junto a esta comunidad. Con propósito, cuidado y presencia, seguiremos construyendo juntos una base fuerte, amorosa y profundamente humana para nuestros niños y niñas.</p>
+<div class="firma">Con cariño y respeto,<br><strong>Lilyth García</strong><br><em>a nombre del Consejo de Arvolar</em></div>
+</section>
+
+<hr>
+
+<section id="ritmo">
+<h2>El Ritmo del Año y la Infancia</h2>
+<p>La naturaleza vive en un movimiento constante de expansión y recogimiento. Hay momentos del año que invitan hacia afuera: hacia la luz, el calor, el movimiento y el encuentro; y otros que naturalmente nos conducen hacia adentro: al silencio, la pausa, la contemplación y el descanso.</p>
+<p>Los seres humanos también vivimos estos movimientos, aunque muchas veces el ritmo acelerado de la vida cotidiana nos aleje de percibirlos con claridad. Los niños, sin embargo, aún conservan una conexión profunda y natural con el mundo que los rodea. Viven las estaciones con todo el cuerpo, con los sentidos, con el movimiento y con el corazón.</p>
+<p>En Arvolar, buscamos acompañar el paso del año desde esta relación viva con la naturaleza y sus ritmos. Las estaciones y las festividades no aparecen como contenidos que deban explicarse intelectualmente, sino como experiencias que pueden vivirse, sentirse e integrarse profundamente en la infancia.</p>
+<p>Inspirados en la pedagogía Waldorf y en la mirada desarrollada por Rudolf Steiner sobre el desarrollo humano, comprendemos que durante los primeros años de vida el niño aprende principalmente a través de la experiencia directa. El hacer, el movimiento, las imágenes, la repetición, el juego, el ambiente y los gestos que rodean su vida cotidiana nutren su desarrollo interior.</p>
+<p>Por ello, en Arvolar cuidamos especialmente el ritmo. La repetición de canciones, estaciones, celebraciones y pequeños gestos a lo largo del año brinda a los niños seguridad, orientación y contención. Poco a poco, el niño comienza a reconocer que después del otoño llega el invierno, que la primavera trae nuevamente flores, y que forma parte de un mundo vivo que se transforma y renueva constantemente.</p>
+<p>Las festividades que vivimos en comunidad buscan acompañar estos movimientos de manera sensible y acorde a cada etapa del desarrollo. Algunas fortalecen la voluntad y la valentía; otras acompañan el recogimiento, el asombro, la gratitud, o la alegría compartida. Más allá de «entender» cada celebración, buscamos que los niños puedan vivirlas de manera íntegra y significativa.</p>
+<p>Por esta razón, muchas veces cuidamos que las imágenes hablen por sí mismas y evitamos dar explicaciones abstractas o adelantadas a los niños. La infancia tiene una manera propia de comprender el mundo: primero viviendo, sintiendo e imaginando; más adelante llegará también la comprensión intelectual.</p>
+<p>Como adultos, este camino nos invita también a observar con mayor atención el ritmo de la naturaleza, el ambiente que ofrecemos a los niños y la forma en que acompañamos el paso del año dentro de nuestras familias.</p>
+<p>No es necesario comprenderlo todo de inmediato. Cada familia irá encontrando poco a poco su propia relación con estas vivencias, descubriendo aquellas imágenes, celebraciones y ritmos que resuenen profundamente con su caminar.</p>
+<p>Deseamos que este ciclo anual pueda convertirse en una oportunidad para vivir el año con mayor presencia, conexión y sentido; acompañando juntos, desde la comunidad, el crecimiento y desarrollo de nuestros niños y niñas.</p>
+</section>
+
+<hr>
+
+<section id="otono">
+<div class="be bo">O T O Ñ O</div>
+<h2 style="color:var(--t)">Otoño</h2>
+<div class="caja ct">El tiempo de la cosecha y la voluntad</div>
+<p>Poco a poco, la intensidad del verano comienza a ceder. Los días se acortan, las mañanas se vuelven más frescas y la naturaleza inicia un proceso de transformación visible. Los árboles comienzan a soltar sus hojas, los frutos alcanzan su madurez y la tierra nos ofrece generosamente aquello que ha gestado durante los meses anteriores.</p>
+<p>El otoño nos habla de cosecha. Después de meses de crecimiento, floración y abundancia, llega el momento de reconocer los frutos que han madurado gracias al tiempo, el cuidado y la dedicación. Es una estación que nos invita a agradecer lo recibido y a prepararnos gradualmente para el recogimiento que llegará con el invierno.</p>
+<p>En Arvolar acompañamos este tiempo a través de experiencias que acercan a los niños a la gratitud, la comunidad, la confianza y la voluntad. Las celebraciones de esta época buscan ofrecer vivencias significativas que profundicen su relación con la naturaleza y con el mundo que los rodea.</p>
+<p>Valentía, cosecha, gratitud, recuerdo, luz y comunidad son algunas de las imágenes que acompañan esta estación. A través de ellas, los niños viven experiencias que poco a poco se integran en su mundo interior y los acompañan en su desarrollo.</p>
+<h3>San Miguel</h3>
+<p>San Miguel es la primera festividad que acompaña el otoño en Arvolar. A través de ella nos acercamos a imágenes de valentía, voluntad y fuerza interior, cualidades que cobran especial relevancia en una época del año que nos invita poco a poco al recogimiento.</p>
+<p>En Arvolar nos interesa especialmente la imagen del ser humano que encuentra el valor para enfrentar los desafíos de la vida con confianza, determinación y perseverancia. En muchas representaciones tradicionales, San Miguel aparece portando una espada. Para nosotros, esta imagen no habla de una lucha contra otros, sino de la capacidad de actuar con decisión frente a los desafíos de la vida, de perseverar cuando algo requiere esfuerzo y de encontrar dentro de nosotros la fuerza para hacer aquello que sabemos que es correcto.</p>
+<p>Los niños viven esta festividad a través de cuentos, juegos, retos y experiencias acordes a su edad. No buscamos transmitir ideas abstractas, sino ofrecer vivencias que fortalezcan la confianza en sí mismos, la perseverancia y la alegría de descubrir que son capaces de enfrentar pequeños desafíos.</p>
+<h3>Día de Muertos</h3>
+<p>En México, el otoño coincide con una de las celebraciones más significativas de nuestra cultura: el Día de Muertos. En esta época del año, cuando la naturaleza comienza a transformarse y a prepararse para el descanso invernal, muchas generaciones han encontrado un momento para recordar con cariño y gratitud a quienes forman parte de nuestra historia familiar y cultural.</p>
+<p>En Arvolar vivimos esta festividad desde el amor, el recuerdo y el agradecimiento. A través de altares, flores, canciones, alimentos tradicionales y momentos compartidos, buscamos acercar a los niños a la riqueza de esta tradición mexicana de una manera respetuosa y acorde a su etapa de desarrollo.</p>
+<p>Más que centrarnos en la ausencia, procuramos cultivar la experiencia de la memoria agradecida: reconocer que formamos parte de una historia más amplia, sostenida por quienes nos precedieron y por los lazos que unen a las familias y a las comunidades a través del tiempo.</p>
+<h3>Festival del Farol</h3>
+<p>A medida que el otoño avanza y los días se vuelven más cortos, celebramos el Festival del Farol. Esta festividad nos ofrece la oportunidad de reunirnos como comunidad y vivir una experiencia sencilla, pero profundamente significativa.</p>
+<p>En Arvolar, los niños elaboran sus propios faroles y participan en un recorrido acompañado por cantos, familias y maestros. La luz de cada farol, la música compartida y la presencia amorosa de los adultos crean un ambiente de calidez y abrigo que acompaña la llegada de los meses más oscuros del año.</p>
+<p>Al caminar juntos, cada niño lleva una pequeña luz entre sus manos. Una luz que ilumina su propio camino, pero que también puede acompañar e iluminar el de otros. Poco a poco, la experiencia nos recuerda que no transitamos solos: somos parte de una comunidad que se sostiene, se acompaña y camina unida.</p>
+<p>En medio de la oscuridad creciente del otoño, la suma de muchas pequeñas luces nos regala una imagen profundamente esperanzadora: cuando nos reunimos con cuidado, presencia y cariño, somos capaces de llevar calidez y belleza a quienes nos rodean.</p>
+</section>
+
+<hr>
+
+<section id="invierno">
+<div class="be bi">I N V I E R N O</div>
+<h2 style="color:var(--az)">Invierno</h2>
+<div class="caja ca">El tiempo del silencio y la luz</div>
+<p>Poco a poco, la naturaleza parece aquietarse. Los árboles descansan, las semillas permanecen resguardadas bajo la tierra y los días alcanzan los momentos de menor luz del año. Aunque a simple vista pareciera que todo se detiene, la naturaleza continúa trabajando silenciosamente en su interior.</p>
+<p>El invierno nos invita a disminuir el ritmo, a valorar los momentos de encuentro, a cuidar la calidez del hogar y a desarrollar una mayor capacidad de observación y escucha. Es una estación que nos recuerda que no todo crecimiento ocurre de manera visible y que, muchas veces, los procesos más importantes suceden en silencio.</p>
+<p>Silencio, espera, calidez humana, encuentro y luz son algunas de las imágenes que acompañan este tiempo del año. A través de ellas, los niños viven experiencias que nutren su mundo interior y preparan el camino para el renacer de la primavera.</p>
+<h3>Espiral de Adviento</h3>
+<p>La Espiral de Adviento es una de las celebraciones más íntimas y significativas que vivimos en Arvolar durante el invierno. En un ambiente de silencio, música y recogimiento, cada niño recorre lentamente un camino en espiral hasta llegar al centro, donde toma una pequeña luz para después compartirla en el recorrido de regreso.</p>
+<p>Se trata de una experiencia sencilla y profundamente bella, sostenida por la presencia amorosa de la comunidad. Mientras cada niño realiza su recorrido, los demás esperan, observan y acompañan, creando un ambiente de respeto, calma y cuidado.</p>
+<p>En una época del año en la que la naturaleza parece descansar y la oscuridad alcanza su punto más profundo, la Espiral nos ofrece una imagen llena de esperanza: incluso en el silencio y la espera, una pequeña luz puede iluminar el camino. Poco a poco, una vela enciende otra y otra más, hasta que la espiral completa se transforma. Como la luz que surge en el centro de la espiral, también nosotros podemos descubrir y resguardar una luz que nace desde dentro y nos acompaña en el camino.</p>
+<p>Más que una celebración para comprender, la Espiral de Adviento es una vivencia para experimentar. Una invitación a detenernos, a contemplar la belleza de los pequeños gestos y a confiar en que, aun en los momentos más silenciosos del año, la luz sigue presente.</p>
+<h3>Festival de los Oficios</h3>
+<p>Durante el invierno celebramos el Festival de los Oficios, una festividad que acerca a los niños al trabajo humano y a la diversidad de habilidades que enriquecen la vida en comunidad.</p>
+<p>A través de la participación de madres, padres y miembros de la comunidad, los niños tienen la oportunidad de acercarse a distintos oficios y conocer a las personas que los realizan. Mediante la observación, la participación y el hacer, descubren el valor de las manos, la dedicación, la práctica y el cuidado que habitan detrás de cada trabajo.</p>
+<p>Esta celebración nos recuerda que muchos de los objetos que utilizamos cotidianamente existen gracias al tiempo y el conocimiento de otras personas. A través de esta experiencia, los niños desarrollan gratitud y respeto por el trabajo bien realizado, al tiempo que reconocen la red de personas que, con sus talentos y esfuerzos, contribuyen al bienestar de la comunidad.</p>
+<p>Las imágenes del hacer, la colaboración, el servicio y la gratitud acompañan esta festividad, invitándonos a reconocer la belleza de los distintos dones y la manera en que cada persona puede ponerlos al servicio de los demás.</p>
+</section>
+
+<hr>
+
+<section id="primavera">
+<div class="be bp">P R I M A V E R A</div>
+<h2 style="color:var(--vm)">Primavera</h2>
+<div class="caja cv">Tiempo de renacimiento y de expansión</div>
+<p>Después del silencio y el recogimiento del invierno, la naturaleza comienza a despertar nuevamente. Los días se alargan, las temperaturas se vuelven más cálidas y la vida emerge con renovada fuerza. Brotan las primeras hojas, aparecen las flores y el mundo parece llenarse nuevamente de color, movimiento y vitalidad.</p>
+<p>La primavera nos recuerda que aquello que permaneció resguardado durante el invierno continúa vivo. Lo que parecía quieto comienza a transformarse y a crecer, mostrando que todo proceso necesita su tiempo y que cada etapa prepara el camino para la siguiente.</p>
+<p>Es una estación que invita al movimiento, la alegría y el encuentro con el mundo. La energía que durante los meses anteriores se encontraba más recogida comienza a dirigirse nuevamente hacia afuera, despertando el deseo de explorar, crear y participar activamente en la vida que nos rodea.</p>
+<p>Belleza, crecimiento, alegría y transformación son algunas de las imágenes que acompañan esta época del año. A través de ellas, los niños viven experiencias que fortalecen su vínculo con la naturaleza y les permiten participar de manera activa en el despertar de la primavera.</p>
+<h3>Pascua</h3>
+<p>En plena primavera, cuando la naturaleza despierta con fuerza y la vida comienza a manifestarse en cada rincón, celebramos la Pascua. Los brotes emergen de la tierra, las flores comienzan a abrirse y el mundo parece llenarse nuevamente de color, movimiento y vitalidad. Es una festividad que acompaña el momento del año en que todo parece volver a crecer y florecer.</p>
+<p>En Arvolar, los niños viven esta celebración a través de experiencias llenas de belleza, juego y asombro. La búsqueda de los huevos de Pascua, la presencia de la liebre y el contacto con la naturaleza crean un ambiente de alegría y expectativa que permite a los niños participar activamente en el despertar de la estación.</p>
+<p>La imagen de la liebre ha acompañado tradicionalmente las celebraciones de primavera por su estrecha relación con la fertilidad, el movimiento y la abundancia de vida que caracteriza esta época del año. Pero también nos acerca a la imagen de quien trabaja silenciosamente para otros, preparando con dedicación pequeños regalos que despiertan alegría y asombro. El huevo, por su parte, nos acerca a la imagen de algo que guarda en su interior la posibilidad de una nueva vida.</p>
+<p>A través de ellas, los niños experimentan de manera viva la fuerza creadora de la naturaleza y la maravillosa capacidad que tiene la vida para transformarse, renovarse y volver a surgir una y otra vez. Como la primavera misma, Pascua nos recuerda que aquello que parecía dormido puede despertar nuevamente y que la vida siempre encuentra la manera de abrirse camino.</p>
+<h3>Palo de Mayo</h3>
+<p>A medida que la primavera avanza, la naturaleza alcanza uno de sus momentos de mayor vitalidad. Los árboles se llenan de hojas, las flores muestran todo su esplendor y las primeras lluvias comienzan a anunciarse. La tierra se prepara para recibir el agua que permitirá nuevos ciclos de crecimiento, recordándonos la profunda relación entre la fertilidad, la abundancia y la vida.</p>
+<p>En este contexto celebramos el Palo de Mayo, una festividad que honra la fuerza expansiva de la naturaleza y la alegría que acompaña su florecimiento. Es una celebración de movimiento, belleza y encuentro, que nos permite reconocer la riqueza y generosidad del mundo natural.</p>
+<p>En Arvolar, niños y adultos se reúnen alrededor del Palo de Mayo para cantar, bailar y participar en una celebración comunitaria llena de alegría. A través de las cintas que se entrelazan durante la danza, se crea una imagen viva de colaboración, armonía e interdependencia, donde cada persona aporta algo al conjunto.</p>
+<p>Las imágenes de fertilidad, crecimiento, abundancia, comunidad y gratitud acompañan esta festividad, invitándonos a celebrar la vida que florece a nuestro alrededor y la alegría de formar parte de ella.</p>
+</section>
+
+<hr>
+
+<section id="verano">
+<div class="be bv">V E R A N O</div>
+<h2 style="color:var(--n)">Verano</h2>
+<div class="caja cn">Tiempo de plenitud y de encuentro</div>
+<p>Con la llegada del verano, la naturaleza alcanza uno de sus momentos de mayor vitalidad. Los días son largos, la luz permanece por más tiempo y el mundo parece desplegar toda la fuerza y abundancia que ha venido gestándose a lo largo del año.</p>
+<p>Después del renacimiento de la primavera, llega un tiempo de plenitud. La vida se expresa con intensidad en la naturaleza, invitándonos a reconocer la belleza de aquello que ha crecido, florecido y madurado. Es una estación que nos acerca a la alegría, la gratitud y el disfrute de lo compartido.</p>
+<p>El verano también nos recuerda la importancia del encuentro. Es una época que favorece la convivencia, la celebración y el fortalecimiento de los lazos que nos unen como comunidad. La calidez del exterior encuentra su reflejo en la calidez de los vínculos humanos.</p>
+<p>Plenitud, abundancia, encuentro, gratitud, alegría y comunidad son algunas de las imágenes que acompañan este tiempo del año. A través de ellas, los niños viven experiencias que celebran la riqueza de la vida y preparan el camino para el ciclo que continuará su curso hacia el otoño.</p>
+<h3>San Juan</h3>
+<p>Con la llegada del verano celebramos San Juan, una festividad profundamente vinculada a la luz, el fuego y la transformación. Coincidiendo con los días de mayor luminosidad del año, nos invita a reconocer la plenitud de la naturaleza y la abundancia de vida que nos rodea.</p>
+<p>En Arvolar vivimos esta celebración alrededor del fuego, reuniéndonos como comunidad para compartir un momento de alegría, gratitud y encuentro. La fogata se convierte en una imagen viva de calidez, fuerza y transformación, acompañando el paso hacia una nueva etapa del ciclo anual.</p>
+<p>El fuego ha sido, desde tiempos antiguos, una imagen de aquello que transforma. En esta festividad nos acerca a la posibilidad de reconocer aquello que hemos vivido, agradecer lo recibido y dejar atrás aquello que ya cumplió su propósito, abriendo espacio para lo nuevo que está por venir.</p>
+<p>En el resplandor del fuego encontramos una imagen de renovación y movimiento. Así como las llamas transforman aquello que tocan, esta festividad nos recuerda que la vida está en constante cambio y que cada etapa prepara el camino para la siguiente.</p>
+<h3>Ceremonia de Paso</h3>
+<p>Al finalizar el ciclo escolar, celebramos la Ceremonia de Paso, un gesto profundamente significativo en el que acompañamos a los niños y niñas que concluyen su etapa en el Jardín de Infancia y se preparan para dar el siguiente paso hacia la Primaria.</p>
+<p>Más que una despedida, esta ceremonia busca reconocer el camino recorrido. Durante sus años en el Jardín, los niños han crecido, jugado, explorado, imaginado y construido una relación viva con el mundo que los rodea. Poco a poco, y a su propio ritmo, han desarrollado las capacidades y la madurez necesarias para abrirse a una nueva etapa de aprendizaje.</p>
+<p>La ceremonia se vive como el cruce de un umbral. Los niños son acompañados por sus familias, maestros y comunidad en un gesto que honra tanto lo vivido como aquello que está por comenzar. Es un momento que nos invita a reconocer el valor del crecimiento, la importancia de los procesos y la confianza necesaria para avanzar hacia lo nuevo.</p>
+<p>Para los adultos, esta celebración también representa una oportunidad para detenerse y observar. En ella se hace visible algo que suele ocurrir silenciosamente día a día: los niños crecen. La Ceremonia de Paso nos recuerda que acompañar la infancia implica, una y otra vez, aprender a sostener, confiar y permitir que cada niño continúe su camino cuando está preparado para hacerlo.</p>
+</section>
+
+<hr>
+
+<section id="cierre">
+<h2>Los Ciclos que nos Acompañan</h2>
+<p>Así como las estaciones regresan cada año, también nosotros volvemos a encontrarnos una y otra vez con los mismos ritmos, las mismas celebraciones y las mismas imágenes. Sin embargo, nunca las vivimos de la misma manera. Los niños crecen, las familias cambian y nosotros también nos transformamos junto con el paso del tiempo.</p>
+<p>Cada año nos ofrece una nueva oportunidad para observar, acompañar y maravillarnos ante el desarrollo de la infancia y ante los ciclos de la naturaleza que nos sostienen.</p>
+<div class="cierre">
+  <p><em>El camino continúa…</em></p>
+  <p style="margin-top:.8rem;font-family:'Inter',sans-serif;font-size:.85rem;color:var(--verde)">Con gratitud y presencia,<br>la comunidad Arvolar</p>
+</div>
+</section>
+
+</div>
+</body>
+</html>
