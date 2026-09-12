@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Misión, Visión y Valores — Arvolar</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500&display=swap');
+:root{--verde:#2D5016;--vm:#4A7C2F;--vs:#EEF5E8;--t:#7A5C1E;--tc:#F5EDD8;--az:#1E4682;--azc:#E8EEF8;--gris:#373737;--crema:#FDFAF5;--l:#E0DDD8}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'EB Garamond',Georgia,serif;font-size:clamp(17px,2.2vw,20px);line-height:1.75;color:var(--gris);background:var(--crema)}
+nav{position:sticky;top:0;z-index:100;background:var(--verde);padding:.5rem 1.5rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap;box-shadow:0 2px 12px rgba(0,0,0,.25)}
+.nt{font-family:'EB Garamond',serif;font-size:1rem;font-style:italic;color:rgba(255,255,255,.85);margin-right:auto}
+.nl{display:flex;gap:.25rem;flex-wrap:wrap}
+a.na{font-family:'Inter',sans-serif;font-size:.72rem;font-weight:500;color:rgba(255,255,255,.7);text-decoration:none;padding:.3rem .7rem;border-radius:4px;transition:background .15s,color .15s}
+a.na:hover{background:rgba(255,255,255,.15);color:#fff}
+.c{max-width:780px;margin:0 auto;padding:2.5rem 1.5rem 5rem}
+.portada{text-align:center;padding:3rem 1rem 3rem;border-bottom:1px solid var(--l);margin-bottom:3rem}
+.logo{width:92px;height:92px;margin:0 auto 1.5rem;border-radius:50%;
+  background:radial-gradient(circle at center,
+    #F5D949 0 17%,
+    #1E8A9C 17% 33%,
+    #D9534F 33% 45%,
+    #F2A93B 45% 60%,
+    transparent 60% 100%);
+  box-shadow:0 4px 14px rgba(0,0,0,.15);}
+.eyebrow{font-family:'Inter',sans-serif;font-size:.78rem;font-weight:500;letter-spacing:.35em;color:var(--t);margin-bottom:.6rem;text-transform:uppercase}
+.portada h1{font-size:clamp(2rem,5.5vw,3rem);color:var(--verde);line-height:1.2;margin-bottom:.3rem}
+.sub{font-size:clamp(1rem,2.5vw,1.25rem);color:var(--vm);font-style:italic;margin:.6rem 0 1.2rem}
+.dec{width:min(200px,50%);height:1px;background:var(--vm);margin:1.2rem auto}
+.guia{font-family:'EB Garamond',serif;font-style:italic;font-size:.95rem;color:var(--gris);max-width:420px;margin:0 auto;line-height:1.6}
+.cita-p{margin:2.2rem auto 0;max-width:480px;background:var(--vs);border-left:3px solid var(--vm);padding:1rem 1.4rem;font-style:italic;font-size:1.15rem;color:var(--verde);border-radius:0 6px 6px 0;text-align:center}
+section{margin-bottom:3rem}
+.eyebrow-section{font-family:'Inter',sans-serif;font-size:.72rem;font-weight:500;letter-spacing:.28em;color:var(--t);text-transform:uppercase;margin-bottom:.3rem}
+h2{font-size:clamp(1.35rem,3vw,1.7rem);color:var(--verde);margin-bottom:.4rem;padding-bottom:.35rem;border-bottom:1.5px solid var(--vm)}
+.subtitle-italic{font-family:'EB Garamond',serif;font-style:italic;font-size:1rem;color:var(--vm);margin:.8rem 0 1.4rem}
+p{margin-bottom:1rem}
+.destacado{font-size:1.15rem;line-height:1.85;color:var(--gris)}
+hr{border:none;border-top:1px solid var(--l);margin:1.3rem 0}
+.valor{padding:.4rem 0}
+.valor h3{font-family:'Inter',sans-serif;font-size:.92rem;font-weight:600;letter-spacing:.1em;color:var(--t);text-transform:uppercase;margin-bottom:.35rem;display:flex;align-items:center;gap:.5rem}
+.valor h3 .diamond{color:var(--vm);font-size:.85rem}
+.valor p{font-size:.98rem;color:var(--gris);margin-bottom:0}
+.cierre{text-align:center;padding:2rem 1rem;background:var(--vs);border-left:3px solid var(--vm);border-radius:0 8px 8px 0;margin-top:1rem}
+.cierre .logo-mini{width:34px;height:34px;margin:0 auto .8rem;border-radius:50%;
+  background:radial-gradient(circle at center,#F5D949 0 17%,#1E8A9C 17% 33%,#D9534F 33% 45%,#F2A93B 45% 60%,transparent 60% 100%);}
+.cierre p{font-family:'Inter',sans-serif;font-size:.8rem;color:var(--vm);font-style:italic;margin:0}
+@media(max-width:480px){.c{padding:1.5rem 1rem 4rem}.portada{padding:2rem .5rem 2rem}nav{padding:.4rem 1rem}.nt{display:none}}
+@media(prefers-color-scheme:dark){:root{--crema:#1C1C1A;--gris:#D8D4CC;--l:#333330}.cita-p{background:rgba(74,124,47,.15)}.cierre{background:rgba(74,124,47,.12)}}
+</style>
+</head>
+<body>
+<nav>
+  <span class="nt">Misión, Visión y Valores</span>
+  <div class="nl">
+    <a class="na" href="#inicio">Inicio</a>
+    <a class="na" href="#vision">Visión</a>
+    <a class="na" href="#mision">Misión</a>
+    <a class="na" href="#valores">Valores</a>
+  </div>
+</nav>
+<div class="c">
+
+<div class="portada" id="inicio">
+  <div class="logo"></div>
+  <div class="eyebrow">Arvolar</div>
+  <h1>Misión · Visión · Valores</h1>
+  <p class="sub">Comunidad Educativa Waldorf</p>
+  <div class="dec"></div>
+  <p class="guia">León, Guanajuato — un espacio donde la infancia se resguarda, se acompaña y florece.</p>
+  <div class="cita-p">«Descubriendo lo mejor de mí, para el futuro de todos»</div>
+</div>
+
+<section id="vision">
+  <div class="eyebrow-section">Hacia dónde caminamos</div>
+  <h2>Visión</h2>
+  <p class="destacado">Ser una comunidad educativa Waldorf consolidada, viva y en evolución permanente, que forme seres humanos libres y conscientes, capaces de <strong>pensar con verdad, sentir con belleza y actuar con bondad</strong> al servicio del otro.</p>
+</section>
+
+<section id="mision">
+  <div class="eyebrow-section">Lo que hacemos cada día</div>
+  <h2>Misión</h2>
+  <p class="destacado">Resguardar en comunidad la esencia de la infancia, despertando el <strong>asombro, la curiosidad, la voluntad y la búsqueda de la verdad</strong> a través de la pedagogía Waldorf, descubriendo lo mejor de cada uno para el futuro de todos.</p>
+</section>
+
+<section id="valores">
+  <div class="eyebrow-section">Lo que sostiene nuestro camino</div>
+  <h2>Valores</h2>
+  <p class="subtitle-italic">Seis pilares que guían nuestra vida en comunidad</p>
+
+  <div class="valor">
+    <h3><span class="diamond">✦</span> Comunidad</h3>
+    <p>Porque entendemos que nuestro crecimiento ocurre con otros y que nuestras acciones impactan al conjunto.</p>
+  </div>
+  <hr>
+  <div class="valor">
+    <h3><span class="diamond">✦</span> Integridad</h3>
+    <p>Porque buscamos vivir con verdad, responsabilidad, respeto y congruencia entre lo que pensamos, sentimos y hacemos.</p>
+  </div>
+  <hr>
+  <div class="valor">
+    <h3><span class="diamond">✦</span> Voluntad</h3>
+    <p>Porque llevamos nuestras intenciones a la acción con constancia, valentía y propósito.</p>
+  </div>
+  <hr>
+  <div class="valor">
+    <h3><span class="diamond">✦</span> Servicio</h3>
+    <p>Porque ponemos nuestros dones y capacidades al servicio del otro y del bien común.</p>
+  </div>
+  <hr>
+  <div class="valor">
+    <h3><span class="diamond">✦</span> Reverencia</h3>
+    <p>Nos relacionamos con profundo respeto, asombro y cuidado hacia la infancia, la naturaleza, las personas y la vida.</p>
+  </div>
+  <hr>
+  <div class="valor">
+    <h3><span class="diamond">✦</span> Empatía</h3>
+    <p>Buscamos comprender al otro y actuar considerando sus necesidades y circunstancias.</p>
+  </div>
+
+  <div class="cierre">
+    <div class="logo-mini"></div>
+    <p>Arvolar · Comunidad Educativa Waldorf · León, Guanajuato</p>
+  </div>
+</section>
+
+</div>
+</body>
+</html>
