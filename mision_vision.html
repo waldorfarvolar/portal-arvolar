@@ -42,12 +42,11 @@ hr{border:none;border-top:1px solid var(--l);margin:1.3rem 0}
 .valor h3{font-family:'Inter',sans-serif;font-size:.92rem;font-weight:600;letter-spacing:.1em;color:var(--t);text-transform:uppercase;margin-bottom:.35rem;display:flex;align-items:center;gap:.5rem}
 .valor h3 .diamond{color:var(--vm);font-size:.85rem}
 .valor p{font-size:.98rem;color:var(--gris);margin-bottom:0}
-.cierre{text-align:center;padding:2rem 1rem;background:var(--vs);border-left:3px solid var(--vm);border-radius:0 8px 8px 0;margin-top:1rem}
-.cierre .logo-mini{width:34px;height:34px;margin:0 auto .8rem;border-radius:50%;
-  background:radial-gradient(circle at center,#F5D949 0 17%,#1E8A9C 17% 33%,#D9534F 33% 45%,#F2A93B 45% 60%,transparent 60% 100%);}
-.cierre p{font-family:'Inter',sans-serif;font-size:.8rem;color:var(--vm);font-style:italic;margin:0}
+footer.pie{text-align:center;padding:2.5rem 1rem 1rem;margin-top:2rem;border-top:1px solid var(--l)}
+footer.pie .logo{width:64px;height:64px;margin:0 auto 1rem}
+footer.pie p{font-family:'Inter',sans-serif;font-size:.8rem;color:var(--vm);font-style:italic;margin:0;letter-spacing:.02em}
 @media(max-width:480px){.c{padding:1.5rem 1rem 4rem}.portada{padding:2rem .5rem 2rem}nav{padding:.4rem 1rem}.nt{display:none}}
-@media(prefers-color-scheme:dark){:root{--crema:#1C1C1A;--gris:#D8D4CC;--l:#333330}.cita-p{background:rgba(74,124,47,.15)}.cierre{background:rgba(74,124,47,.12)}}
+@media(prefers-color-scheme:dark){:root{--crema:#1C1C1A;--gris:#D8D4CC;--l:#333330}.cita-p{background:rgba(74,124,47,.15)}}
 </style>
 </head>
 <body>
@@ -66,7 +65,7 @@ hr{border:none;border-top:1px solid var(--l);margin:1.3rem 0}
   <div class="logo"></div>
   <div class="eyebrow">Arvolar</div>
   <h1>Misión · Visión · Valores</h1>
-  <p class="sub">Comunidad Educativa Waldorf</p>
+  <p class="sub">Comunidad Waldorf</p>
   <div class="dec"></div>
   <p class="guia">León, Guanajuato — un espacio donde la infancia se resguarda, se acompaña y florece.</p>
   <div class="cita-p">«Descubriendo lo mejor de mí, para el futuro de todos»</div>
@@ -118,13 +117,14 @@ hr{border:none;border-top:1px solid var(--l);margin:1.3rem 0}
     <h3><span class="diamond">✦</span> Empatía</h3>
     <p>Buscamos comprender al otro y actuar considerando sus necesidades y circunstancias.</p>
   </div>
-
-  <div class="cierre">
-    <div class="logo-mini"></div>
-    <p>Arvolar · Comunidad Educativa Waldorf · León, Guanajuato</p>
-  </div>
 </section>
 
 </div>
+
+<footer class="pie">
+  <div class="logo"></div>
+  <p>Arvolar · Comunidad Waldorf · León, Guanajuato</p>
+</footer>
+
 </body>
 </html>
